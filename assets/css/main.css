@@ -3881,15 +3881,6 @@ input, select, textarea {
 					border-top-width: 0;
 				}
 
-				/* Custom borders for specific projects */
-				#main > .posts > article.tesla-project {
-					border-right-width: 2px;
-				}
-
-				#main > .posts > article.retail-sales-project {
-					border-bottom-width: 2px;
-				}
-
 			@media screen and (max-width: 980px) {
 
 				#main > .posts > * {
@@ -3928,13 +3919,6 @@ input, select, textarea {
 
 				#main > .posts > article:nth-child(-n + 1) {
 					border-top-width: 0;
-				}
-
-				/* Reset custom borders on mobile to prevent layout issues */
-				#main > .posts > article.tesla-project,
-				#main > .posts > article.retail-sales-project {
-					border-right-width: 0;
-					border-bottom-width: 0;
 				}
 
 				#main > .posts > article .image {
